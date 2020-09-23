@@ -11,8 +11,6 @@
     <!--    CSS STYLES SHEET   -->
     <link rel="stylesheet" href="styles.css">
 
-    <!-- Font Awesome -->
-    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
@@ -38,19 +36,6 @@
 </head>
 <body>
 <div class="container">
-    <!--    HEADER SECTION TITTLE OF THE WEBPAGE AND SUBSCRIPTION TAG-->
-    <header class="blog-header py-3">
-        <div class="row flex-nowrap justify-content-between align-items-center">
-
-            <div class="col-10 text-center">
-                <a class="blog-header-logo text-dark" href="#">History of the Internet</a>
-            </div>
-
-            <div class="col-2 text-center subscription">
-                <a class="text-muted" href="#">Subscribe</a>
-            </div>
-        </div>
-    </header>
 
     <!--    NAVIGATION BAR -->
     <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
@@ -65,22 +50,16 @@
                     <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="team.html">Team</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="about.html">About</a>
+                    <a class="nav-link" href="team.html">About</a>
                 </li>
 
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        History of the Internet
+                        Projects
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="project_pages/invention.html">The Invention of the Internet</a>
-                        <a class="dropdown-item" href="project_pages/browser_wars.html">Browser Wars</a>
-                        <a class="dropdown-item" href="project_pages/internet_search.html">Internet Search</a>
-                        <a class="dropdown-item" href="project_pages/doc_com.html">Dot Com Bubble</a>
-                        <a class="dropdown-item" href="project_pages/people.html">Important People</a>
+                        <a class="dropdown-item" href="project_pages/invention.html">Project 1</a>
+                        <a class="dropdown-item" href="project_pages/browser_wars.html">Project 2</a>
                     </div>
                 </li>
             </ul>
@@ -92,29 +71,15 @@
         </form>
     </nav>
 
-    <!--    SUMMARY OF THE PAGE    -->
-    <div class="jumbotron p-4 p-md-5 text-white rounded bg-dark">
-        <div class="col-md-6 px-0">
-            <h1 class="display-4 font-italic">History of the Internet</h1>
-            <p class="lead my-3">
-                On this web page, you will find information about the history of the internet, its creation, technology, and all the components that belongs to it, as well as important features and the people responsible for its development.
-            </p>
-            <p class="lead mb-0"><a href="#" class="text-white font-weight-bold">Continue reading...</a></p>
-        </div>
-    </div>
-
     <!--  CONTENT OF THE HOME PAGE  -->
     <main role="main" class="container">
         <div class="row">
 
             <!--  MAIN CONTENT OF THE PAGE -->
-            <div class="col-md-8 blog-main">
+            <div class="col-md-12 blog-main">
                 <div class="blog-post">
                     <h2 class="blog-post-title">Home Page Content</h2>
-                    <p class="blog-post-meta">January 1, 2014 by <a href="#">Aayush</a></p>
 
-                    <p>This blog post shows a few different types of content that’s supported and styled with Bootstrap. Basic typography, images, and code are all supported.</p>
-                    <hr>
                     <p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
                     <blockquote>
                         <p>Curabitur blandit tempus porttitor. <strong>Nullam quis risus eget urna mollis</strong> ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
@@ -144,17 +109,6 @@
 
             </div><!-- /.blog-main -->
 
-            <!--    LEFT SIDE CONTENT  (SIDEBAR) -->
-            <aside class="col-md-4 blog-sidebar">
-                <div class="p-4 mb-3 bg-light rounded">
-                    <h4 class="font-italic">Elsewhere</h4>
-                    <ol class="list-unstyled">
-                        <li><a href="#">GitHub</a></li>
-                        <li><a href="#">Twitter</a></li>
-                        <li><a href="#">Facebook</a></li>
-                    </ol>
-                </div>
-            </aside>
 
         </div><!-- /.row -->
 
@@ -166,12 +120,8 @@
             <i class="social-icon fab fa-facebook-f"></i>
             <i class="social-icon fab fa-twitter"></i>
             <i class="social-icon fab fa-instagram"></i>
-            <i class="social-icon fas fa-envelope"></i>
             <p>© Copyright 2020 Alex V. Nunez & Aayush</p>
         </div>
-        <p>
-            <a href="#">Back to top</a>
-        </p>
     </footer>
 
     <!-- Optional JavaScript -->
