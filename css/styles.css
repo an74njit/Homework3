@@ -1,0 +1,29 @@
+
+
+html{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.page-content{
+    width: 45rem;
+    padding-top: 4%;
+    font-size: 22px;
+    line-height: 37px;
+    display: inline-block;
+}
+
+.slide-bar{
+    width: 20rem;
+    float: right;
+    padding-top: 8%;
+    font-size: 22px;
+    line-height: 37px;
+    display: inline-block;
+}
+
+footer{
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;
+    background-color: gainsboro;
+}
